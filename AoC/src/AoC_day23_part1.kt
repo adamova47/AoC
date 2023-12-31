@@ -50,7 +50,7 @@ fun dfs(x: Int, y: Int, mapData: List<String>, visited: Array<BooleanArray>, cur
 }
 
 fun main() {
-    val mapData = File("C:\\Users\\adamo\\IdeaProjects\\Worketh\\src\\day23.txt").readLines()
+    val mapData = File("day23.txt").readLines()
 
     val startRow = 0
     val startCol = mapData[0].indexOf('.')
